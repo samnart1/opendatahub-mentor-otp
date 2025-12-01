@@ -10,9 +10,9 @@ brandNavbarLogo: null
 #overwrite default values by location.hostname
 brandByDomain:
   localhost:
-    branding: Journey 
-    title: Journey
-    brandNavbar: Journey
+    branding: Open Data Hub
+    title: Open Data Hub Journey
+    brandNavbar: ''
     brandNavbarLogo: openmove
   
   mobility.meran.eu:
