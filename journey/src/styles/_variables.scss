@@ -83,8 +83,8 @@ $border-radius-base:        8px !default;
 $border-radius-large:       12px !default;
 $border-radius-small:       6px !default;
 
-$component-active-color:    $text-color !default;
-$component-active-bg:       $brand-primary !default;
+$component-active-color:    #fff !default;
+$component-active-bg:       #000 !default;
 $caret-width-base:          4px !default;
 $caret-width-large:         5px !default;
 
@@ -102,9 +102,9 @@ $btn-default-color:              #333 !default;
 $btn-default-bg:                 #fff !default;
 $btn-default-border:             #ccc !default;
 
-$btn-primary-color:              $text-color !default;
-$btn-primary-bg:                 $brand-primary !default;
-$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+$btn-primary-color:              #fff !default;
+$btn-primary-bg:                 #000 !default;
+$btn-primary-border:             #000 !default;
 
 $btn-success-color:              #fff !default;
 $btn-success-bg:                 $brand-success !default;
@@ -128,16 +128,16 @@ $btn-border-radius-base:         $border-radius-base !default;
 $btn-border-radius-large:        $border-radius-large !default;
 $btn-border-radius-small:        $border-radius-small !default;
 
-$input-bg:                       lighten($brand-primary, 20%) !default;
+$input-bg:                       #fff !default;
 $input-bg-disabled:              $gray-lighter !default;
-$input-color:                    $gray !default;
-$input-border:                   $input-bg !default;
+$input-color:                    #000 !default;
+$input-border:                   #ccc !default;
 
 $input-border-radius:            $border-radius-base !default;
 $input-border-radius-large:      $border-radius-large !default;
 $input-border-radius-small:      $border-radius-small !default;
 
-$input-border-focus:             lighten($brand-primary, 15%) !default;
+$input-border-focus:             #666 !default;
 $input-color-placeholder:        $gray-light !default;
 
 $input-height-base:              ($line-height-computed + ($padding-base-vertical * 3) + 2) !default;
@@ -146,7 +146,7 @@ $input-height-small:             (floor($font-size-small * $line-height-small) +
 
 $form-group-margin-bottom:       15px !default;
 
-$input-group-addon-bg:           $input-bg !default;
+$input-group-addon-bg:           #f5f5f5 !default;
 $input-group-addon-border-color: $input-border !default;
 $cursor-disabled:                not-allowed !default;
 
@@ -219,25 +219,25 @@ $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-default-color:             $text-color !default;
-$navbar-default-bg:                $brand-primary !default;
-$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-color:             #000 !default;
+$navbar-default-bg:                #fff !default;
+$navbar-default-border:            #e7e7e7 !default;
 
-$navbar-default-link-color:                $text-color !default;
-$navbar-default-link-hover-color:          lighten($navbar-default-bg, 40%) !default;
+$navbar-default-link-color:                #000 !default;
+$navbar-default-link-hover-color:          #333 !default;
 $navbar-default-link-hover-bg:             transparent !default;
-$navbar-default-link-active-color:         lighten($navbar-default-bg, 40%) !default;
-$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-link-active-color:         #000 !default;
+$navbar-default-link-active-bg:            #f5f5f5 !default;
 $navbar-default-link-disabled-color:       #ccc !default;
 $navbar-default-link-disabled-bg:          transparent !default;
 
-$navbar-default-brand-color:               $navbar-default-link-color !default;
-$navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;
+$navbar-default-brand-color:               #000 !default;
+$navbar-default-brand-hover-color:         #333 !default;
 $navbar-default-brand-hover-bg:            transparent !default;
 
-$navbar-default-toggle-hover-bg:           transparent !default;
-$navbar-default-toggle-icon-bar-bg:        $text-color !default;
-$navbar-default-toggle-border-color:       transparent !default;
+$navbar-default-toggle-hover-bg:           #f5f5f5 !default;
+$navbar-default-toggle-icon-bar-bg:        #000 !default;
+$navbar-default-toggle-border-color:       #ddd !default;
 
 $nav-link-padding:                          10px 15px !default;
 $nav-link-hover-bg:                         $gray-lighter !default;
@@ -246,7 +246,7 @@ $nav-disabled-link-color:                   $gray-light !default;
 $nav-disabled-link-hover-color:             $gray-light !default;
 
 $label-default-bg:            $gray-light !default;
-$label-primary-bg:            $brand-primary !default;
+$label-primary-bg:            #000 !default;
 $label-success-bg:            $brand-success !default;
 $label-info-bg:               $brand-info !default;
 $label-warning-bg:            $brand-warning !default;
@@ -295,19 +295,19 @@ $panel-footer-bg:             #f5f5f5 !default;
 
 $panel-default-text:          $gray-dark !default;
 $panel-default-border:        #ddd !default;
-$panel-default-heading-bg:    lighten($brand-primary, 20%) !default;
+$panel-default-heading-bg:    #f5f5f5 !default;
 
 $panel-primary-text:          #fff !default;
-$panel-primary-border:        $brand-primary !default;
-$panel-primary-heading-bg:    $brand-primary !default;
+$panel-primary-border:        #000 !default;
+$panel-primary-heading-bg:    #000 !default;
 
 
 // Project vars
-$base-color: $brand-primary;
+$base-color: #000;
 $sidebar-width: 512px;
 $option-panel-width: 400px;
-$settings-selector-panel-color: $text-color;
-$settings-selector-panel-bg: $brand-primary;
+$settings-selector-panel-color: #fff;
+$settings-selector-panel-bg: #000;
 
 $mobile-welcome-location-top: $navbar-height;
 $mobile-welcome-location-height: 57px;
