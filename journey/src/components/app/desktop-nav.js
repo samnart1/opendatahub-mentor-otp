@@ -45,7 +45,7 @@ const DesktopNav = ({ otpConfig }) => {
   }
 
   return (
-    <Navbar fluid inverse fixedTop>
+    <Navbar fluid fixedTop>
       <Navbar.Header>
         <img className='brandLogo odh-logo' src={opendatahub} style={{ float: 'left', height: '50px', marginLeft: '15px' }} />
         <Navbar.Brand>
