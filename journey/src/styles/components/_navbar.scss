@@ -29,6 +29,14 @@
     float: left;
     height: 50px;
     margin: 0 5px 0 -15px;
+
+    &.odh-logo {
+      margin-right: 10px;
+    }
+
+    &.journey-logo {
+      margin-left: 5px;
+    }
   }
 }
 
@@ -39,11 +47,19 @@
       height: 50px;
       margin: 0;
       position: absolute;
+
+      &.odh-logo {
+        left: 0;
+      }
+
+      &.journey-logo {
+        left: 55px;
+      }
     }
   }
   .navbar-brand {
     span {
-      margin-left: 50px;
+      margin-left: 110px;
     }
   }
 }

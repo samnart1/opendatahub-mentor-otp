@@ -17,6 +17,7 @@ import interreg from '../../images/interreg.png'
 import openmove from '../../images/openmove.png'
 import merano from "../../images/merano.png";
 import bolzano from "../../images/ComuneBolzano.png";
+import opendatahub from "../../images/opendatahub.svg";
 
 const logos = {
   interreg,
@@ -69,8 +70,9 @@ class MobileNavigationBar extends Component {
     return (
       <Navbar fluid fixedTop collapseOnSelect>
         <Navbar.Header>
+          <img className='brandLogo odh-logo' src={opendatahub} />
         { brandLogo &&
-            <img className='brandLogo' src={brandLogo} />
+            <img className='brandLogo journey-logo' src={brandLogo} />
           }
           <Navbar.Brand>
             {
