@@ -8,19 +8,18 @@
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #444 !important;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  color: #000 !important;
+  text-shadow: none;
   span {
     background: $brand-warning;
-    color:white;
-    border-radius:5px;
+    color: white;
+    border-radius: 5px;
     padding: 0 4px;
     margin-left: 10px;
     vertical-align: top;
-    font-size:12px;
+    font-size: 12px;
     font-weight: normal;
     display: inline-block;
-/*     transform: rotate(-20deg); */
   }
 }
 
@@ -31,7 +30,8 @@
     margin: 0 5px 0 -15px;
 
     &.odh-logo {
-      margin-right: 10px;
+      height: 40px;
+      margin: 5px 10px 5px 15px;
     }
 
     &.journey-logo {
