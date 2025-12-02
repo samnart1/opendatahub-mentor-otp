@@ -10,6 +10,7 @@ import NavLoginButtonAuth0 from '../user/nav-login-button-auth0.js'
 import { accountLinks, getAuth0Config } from '../../util/auth'
 import { DEFAULT_APP_TITLE } from '../../util/constants'
 import AppMenu from './app-menu'
+import opendatahub from '../../images/opendatahub.svg'
 
 /**
  * The desktop navigation bar, featuring a `branding` logo or a `title` text
@@ -46,6 +47,7 @@ const DesktopNav = ({ otpConfig }) => {
   return (
     <Navbar fluid inverse fixedTop>
       <Navbar.Header>
+        <img className='brandLogo odh-logo' src={opendatahub} style={{ float: 'left', height: '50px', marginLeft: '15px' }} />
         <Navbar.Brand>
           <AppMenu />
           {brandingOrTitle}
