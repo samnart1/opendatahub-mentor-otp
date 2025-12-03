@@ -164,8 +164,8 @@ map:
       attribution: 'Map tiles: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>'
       hasRetinaSupport: true
     - name: Printer
-      url: //stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.png
-      attribution: 'Map tiles by <a href="http://stamen.com">Printer</a>'
+      url: //tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}.png
+      attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>'
     - name: Openstreetmap
       url: //{s}.tile.osm.org/{z}/{x}/{y}.png
       attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
