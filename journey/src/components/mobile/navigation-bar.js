@@ -71,9 +71,6 @@ class MobileNavigationBar extends Component {
       <Navbar fluid fixedTop collapseOnSelect>
         <Navbar.Header>
           <img className='brandLogo odh-logo' src={opendatahub} />
-        { brandLogo &&
-            <img className='brandLogo journey-logo' src={brandLogo} />
-          }
           <Navbar.Brand>
             {
               showBackButton &&

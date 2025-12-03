@@ -50,7 +50,7 @@ const DesktopNav = ({ otpConfig }) => {
         <img className='brandLogo odh-logo' src={opendatahub} style={{ float: 'left', height: '50px', marginLeft: '15px' }} />
         <Navbar.Brand>
           <AppMenu />
-          {brandingOrTitle}
+          <div className='navbar-title' style={{ marginLeft: 50 }}>{title}</div>
         </Navbar.Brand>
       </Navbar.Header>
 
